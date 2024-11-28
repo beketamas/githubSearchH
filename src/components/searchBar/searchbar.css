@@ -1,0 +1,43 @@
+.search-form{
+    position:relative;
+    margin-bottom: 20px;
+    color: var(--text-color-two);
+}
+
+.userinput{
+    color: inherit;
+    background-color: var(--app-bg);
+    border: none;
+    width: 100%;
+    padding:20px 50px;
+    border-radius: 15px;
+    box-shadow: var(--box-shadow);
+    font-family: inherit;
+}
+
+.search-icon, .search-button{
+    position: absolute;
+    top: 25%;
+}
+
+.search-icon{
+    left:10px;
+    width: 34px;
+}
+
+.search-button{
+    right:20px;
+    font-size: 15px;
+    background-color: rgb(68, 68, 243);
+    border: none;
+    padding: 5px;
+    color:#fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 1.1s ease;
+}
+
+.search-button:hover{
+    background-color:rgb(119, 119, 251);
+}
+

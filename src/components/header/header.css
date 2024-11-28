@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.websiteName{
+    color: var(--text-color-two);
+    font-size: 26px;
+}
+
+.toggleButton{
+    color: var(--text-color-one);
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.toggleButton img{
+    transition: transform 1.3s ease;
+}
+
+.toggleButton:hover img{
+    transform: scale(1.5);
+}
+
+.toggleButton{
+    transition: color 1.3s ease;
+}
+
+.toggleButton:hover {
+    color:var(--theme-toggle-hover-color)
+}
+
