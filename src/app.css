@@ -40,3 +40,16 @@
     max-width: 480px;
 }
 
+@media (min-width : 768px) {
+    .container{
+        max-width: 650px;
+    }
+}
+
+
+
+@media (min-width : 1024px) {
+    .container{
+        max-width: 730px;
+    }
+}

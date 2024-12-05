@@ -1,0 +1,114 @@
+.user-card{
+    color: var(--text-color-one);
+    background-color: var(--app-bg);
+    border-radius: 15px;
+    padding: 32px;
+    font-size: 13px;
+}
+
+.user-top{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    margin-bottom: 20px;
+}
+
+.avatar{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.login{
+    margin-top: 20px;
+    color: rgb(0, 115, 255);
+    margin-bottom: 20px;
+}
+
+.joined{
+    margin-top: 8px;
+}
+
+.not-available{
+    opacity: 0.8;
+}
+
+.bio{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.stats{
+    background-color: var(--body-bg);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 18px 30px;
+    margin-bottom: 20px;
+}
+
+.stat-title{
+    font-size: 11px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    opacity: 0.8;
+}
+
+
+.stat-number{
+    color: var(--text-color-two);
+    font-size: 18px;
+}
+
+.link-wrap{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 10px;
+
+}
+
+@media (min-width : 768px) {
+    .avatar{
+        width: 120px;
+    }
+
+    .stats{
+        text-align: left;
+    }
+
+    .user-bottom{
+        display: flex;
+        gap: 120px;
+    }
+}
+
+@media (min-width : 1024px) {
+
+    .user-card{
+        padding: 60px;
+    }
+
+    .user-info{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .joinde{
+        position: absolute;
+        width: 200px;
+        left: 135px;
+    }
+
+    .user-middle{
+        width: 480px;
+        margin-left: auto;
+    }
+
+    .user-bottom{
+        width: 480px;
+        margin-left: auto;
+    }
+}
